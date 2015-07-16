@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SelectFriendsTableViewController.h
 //  BookClub
 //
 //  Created by Tony Dakhoul on 6/3/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SelectFriendsTableViewController : UITableViewController
 
+@property NSManagedObjectContext *moc;
 
 @end
-
